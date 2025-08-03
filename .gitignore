@@ -152,3 +152,6 @@ build
 
 # PWA
 dev-dist
+
+# Localization
+**/lib/paraglide
