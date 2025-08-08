@@ -1,0 +1,8 @@
+{
+    "nav": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "sign_in": "Sign In",
+        "back_to_home": "Back to Home"
+    }
+}

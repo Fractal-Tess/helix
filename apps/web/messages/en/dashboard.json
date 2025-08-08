@@ -1,0 +1,65 @@
+{
+    "dashboard": {
+        "header": "Dashboard",
+        "welcome": "Welcome to your dashboard",
+        "documents": "Documents",
+        "github": "GitHub",
+        "company_name": "Mono-v2",
+        "nav": {
+            "dashboard": "Dashboard",
+            "lifecycle": "Lifecycle",
+            "analytics": "Analytics",
+            "projects": "Projects",
+            "team": "Team",
+            "settings": "Settings",
+            "get_help": "Get Help",
+            "search": "Search"
+        },
+        "clouds": {
+            "capture": "Capture",
+            "proposal": "Proposal",
+            "prompts": "Prompts",
+            "active_proposals": "Active Proposals",
+            "archived": "Archived"
+        },
+        "user": {
+            "account": "Account",
+            "billing": "Billing",
+            "notifications": "Notifications",
+            "log_out": "Log out"
+        },
+        "cards": {
+            "total_revenue": "Total Revenue",
+            "new_customers": "New Customers",
+            "active_accounts": "Active Accounts",
+            "growth_rate": "Growth Rate",
+            "trending_up": "Trending up this month",
+            "trending_down": "Down 20% this period",
+            "strong_retention": "Strong user retention",
+            "steady_performance": "Steady performance increase",
+            "visitors_description": "Visitors for the last 6 months",
+            "acquisition_description": "Acquisition needs attention",
+            "engagement_description": "Engagement exceed targets",
+            "growth_description": "Meets growth projections"
+        },
+        "table": {
+            "header": "Header",
+            "section_type": "Section Type",
+            "status": "Status",
+            "target": "Target",
+            "limit": "Limit",
+            "reviewer": "Reviewer",
+            "select_all": "Select all",
+            "select_row": "Select row"
+        },
+        "search": {
+            "label": "Search",
+            "placeholder": "Search the docs..."
+        },
+        "documents_items": {
+            "data_library": "Data Library",
+            "reports": "Reports",
+            "word_assistant": "Word Assistant"
+        }
+    }
+}

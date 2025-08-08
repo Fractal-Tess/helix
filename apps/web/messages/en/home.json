@@ -1,0 +1,64 @@
+{
+    "home": {
+        "hero": {
+            "badge": "Mono V2 Platform",
+            "title1": "Build the Future with",
+            "title2": "Modern Technology",
+            "description": "Crafting exceptional digital experiences through innovative design and cutting-edge technology.",
+            "sign_in": "Sign In",
+            "dashboard": "Dashboard"
+        },
+        "features": {
+            "title": "Everything you need to build amazing applications",
+            "subtitle": "Powerful features designed to accelerate your development workflow",
+            "lightning_fast": {
+                "title": "Lightning Fast",
+                "description": "Built with SvelteKit for optimal performance and blazing-fast page loads"
+            },
+            "enterprise_security": {
+                "title": "Enterprise Security",
+                "description": "Enterprise-grade security with authentication, authorization, and data protection"
+            },
+            "beautiful_ui": {
+                "title": "Beautiful UI",
+                "description": "Pre-built, accessible components with modern design patterns and animations"
+            },
+            "real_time_collaboration": {
+                "title": "Real-time Collaboration",
+                "description": "Built-in real-time features for collaborative editing and live updates"
+            },
+            "developer_experience": {
+                "title": "Developer Experience",
+                "description": "Excellent developer experience with TypeScript, hot reloading, and debugging tools"
+            },
+            "analytics_insights": {
+                "title": "Analytics & Insights",
+                "description": "Built-in analytics and data visualization for better decision making"
+            }
+        },
+        "cta": {
+            "title": "Ready to get started?",
+            "subtitle": "Join thousands of developers building amazing applications with Mono V2",
+            "start_building": "Start Building",
+            "view_demo": "View Demo"
+        },
+        "footer": {
+            "description": "A modern web application platform built for developers who want to build fast, secure, and beautiful applications.",
+            "product": "Product",
+            "company": "Company",
+            "features": "Features",
+            "pricing": "Pricing",
+            "documentation": "Documentation",
+            "api": "API",
+            "about": "About",
+            "blog": "Blog",
+            "careers": "Careers",
+            "contact": "Contact",
+            "copyright": "© 2024 Mono V2. All rights reserved."
+        },
+        "page": {
+            "title": "Mono V2 - Modern Web Application Platform",
+            "meta_description": "A powerful, modern web application platform built with SvelteKit, featuring real-time collaboration, beautiful UI components, and enterprise-grade security."
+        }
+    }
+}

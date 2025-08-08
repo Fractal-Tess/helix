@@ -1,0 +1,25 @@
+{
+    "sign_in": {
+        "welcome_back": "Welcome Back",
+        "sign_in_to_continue": "Sign in to your account to continue",
+        "secure_authentication": "Secure Authentication",
+        "enterprise_grade_security": "Enterprise-grade security",
+        "privacy_first": "Privacy First",
+        "your_data_protected": "Your data is protected",
+        "lightning_fast": "Lightning Fast",
+        "optimized_performance": "Optimized performance",
+        "welcome_to": "Welcome to {company}",
+        "company_name": "Mono-V2",
+        "dont_have_account": "Don't have an account?",
+        "sign_up": "Sign up",
+        "or": "Or",
+        "email": "Email",
+        "email_placeholder": "m@example.com",
+        "login": "Login",
+        "continue_with_apple": "Continue with Apple",
+        "continue_with_google": "Continue with Google",
+        "terms_agreement": "By clicking continue, you agree to our {terms} and {privacy}.",
+        "terms_of_service": "Terms of Service",
+        "privacy_policy": "Privacy Policy"
+    }
+}

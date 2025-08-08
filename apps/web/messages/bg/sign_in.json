@@ -1,0 +1,12 @@
+{
+    "sign_in": {
+        "welcome_back": "Добре дошли отново",
+        "sign_in_to_continue": "Влезте в акаунта си, за да продължите",
+        "secure_authentication": "Сигурна автентикация",
+        "enterprise_grade_security": "Корпоративна сигурност",
+        "privacy_first": "Поверителност на първо място",
+        "your_data_protected": "Вашите данни са защитени",
+        "lightning_fast": "Мълниеносно бързо",
+        "optimized_performance": "Оптимизирана производителност"
+    }
+}

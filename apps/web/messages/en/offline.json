@@ -1,0 +1,19 @@
+{
+    "offline": {
+        "title": "You're Offline",
+        "description": "It looks like you've lost your internet connection. Don't worry, you can still access some features.",
+        "while_offline": "While you're offline, you can:",
+        "features": {
+            "view_pages": "View previously loaded pages",
+            "access_cached": "Access cached content",
+            "use_basic": "Use basic app features"
+        },
+        "try_again": "Try Again",
+        "go_home": "Go Home",
+        "check_connection": "Check your internet connection and try refreshing the page.",
+        "page": {
+            "title": "Offline - Mono-v2",
+            "meta_description": "You are currently offline. Please check your internet connection."
+        }
+    }
+}
