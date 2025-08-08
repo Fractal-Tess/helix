@@ -1,9 +1,10 @@
 <script lang="ts">
   import { MoonIcon, SunIcon } from 'lucide-svelte';
   import { toggleMode } from 'mode-watcher';
-  import { useClerkContext, UserButton } from 'svelte-clerk/client';
   import { Button } from '@repo/ui/components/ui/button/index.js';
   import * as Sidebar from '@repo/ui/components/ui/sidebar/index.js';
+  import { useProfile } from '$lib/stores/useProfile';
+  import CircularProgressAvatar from './CircularProgressAvatar.svelte';
 
   type Props = {
     username: string;
@@ -11,6 +12,8 @@
     avatar: string;
   };
   let { email, username, avatar }: Props = $props();
+
+  const profile = useProfile();
 </script>
 
 <Sidebar.Menu>
@@ -24,6 +27,9 @@
         <span class="text-muted-foreground truncate text-xs">
           {email || 'No email'}
         </span>
+        {#if profile.profile?.data?.level}
+          <span class="text-xs">Lv {profile.profile?.data?.level}</span>
+        {/if}
       </div>
       <Button onclick={toggleMode} variant="outline" size="icon">
         <SunIcon
@@ -35,19 +41,14 @@
         <span class="sr-only">Toggle theme</span>
       </Button>
 
-      <UserButton
-        afterSignOutUrl="/"
-        appearance={{
-          elements: {
-            avatarBox: 'size-8 rounded-lg',
-            userButtonPopoverCard: 'w-56 rounded-lg',
-            userButtonPopoverActionButton: 'rounded-md',
-            userButtonPopoverActionButtonText: 'text-sm',
-            userButtonPopoverFooter: 'border-t',
-            userButtonPopoverRootBox: 'w-full'
-          }
-        }}
-      />
+      <div class="ml-2">
+        <CircularProgressAvatar
+          src={avatar}
+          size={40}
+          stroke={3}
+          progress={profile.profile?.data?.progress ?? 0}
+        />
+      </div>
     </Sidebar.MenuButton>
   </Sidebar.MenuItem>
 </Sidebar.Menu>

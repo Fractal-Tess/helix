@@ -4,6 +4,7 @@
   import * as Sidebar from '@repo/ui/components/ui/sidebar/index.js';
   import type { ComponentProps } from 'svelte';
   import * as m from '$lib/paraglide/messages.js';
+  import AddXpButton from './AddXpButton.svelte';
   import NavDocuments from './NavDocuments.svelte';
   import NavMain from './NavMain.svelte';
   import NavSecondary from './NavSecondary.svelte';
@@ -35,6 +36,9 @@
     <NavMain items={sidebarData.navMain} />
     <NavDocuments items={sidebarData.documents} />
     <NavSecondary items={sidebarData.navSecondary} class="mt-auto" />
+    <div class="px-4 py-2">
+      <AddXpButton amount={250} />
+    </div>
   </Sidebar.Content>
   <Sidebar.Footer>
     <NavUser
