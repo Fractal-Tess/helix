@@ -34,3 +34,4 @@ Variables are containers that store data in your program. In C, every variable m
 - Knowledge of the compilation process
 
 Let's dive into the world of variables and data types!
+

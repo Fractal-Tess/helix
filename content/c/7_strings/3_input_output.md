@@ -107,3 +107,4 @@ printf("Hello, %s %s!\n", first, last);
 ## Next Steps
 
 In the next lesson, you'll learn about string manipulation!
+

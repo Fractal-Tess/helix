@@ -28,3 +28,4 @@ Welcome to C programming! This section will teach you the fundamentals of writin
 - A C compiler (like GCC)
 
 Let's begin your journey into C programming!
+

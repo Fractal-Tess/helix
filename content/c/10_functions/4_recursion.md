@@ -155,3 +155,4 @@ int binarySearch(int arr[], int left, int right, int target) {
 ## Next Steps
 
 You've completed the Functions section! Next, you'll learn about the static keyword!
+

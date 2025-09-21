@@ -115,3 +115,4 @@ void doubleArray(int arr[], int size) {
 ## Next Steps
 
 You've completed the Arrays section! Next, you'll learn about multidimensional arrays!
+

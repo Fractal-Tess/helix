@@ -79,3 +79,4 @@ Data types define:
 ## Next Steps
 
 In the next lesson, you'll learn about the `int` type in detail!
+

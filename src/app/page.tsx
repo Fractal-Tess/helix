@@ -161,3 +161,7 @@ export default function Page() {
     </div>
   );
 }
+
+export default function Home() {
+  return <Hero />;
+}

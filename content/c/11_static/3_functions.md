@@ -148,3 +148,4 @@ int subtract(int a, int b) { ... }
 ## Next Steps
 
 You've completed the Static section! You now have comprehensive C programming knowledge!
+

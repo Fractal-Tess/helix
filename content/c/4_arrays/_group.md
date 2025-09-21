@@ -33,3 +33,4 @@ Arrays allow you to store multiple values of the same type in a single variable.
 - Basic knowledge of variables and functions
 
 Let's explore the world of arrays in C programming!
+

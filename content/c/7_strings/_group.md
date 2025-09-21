@@ -33,3 +33,4 @@ Strings in C are arrays of characters terminated by a null character (`\0`). The
 - Basic knowledge of functions and libraries
 
 Let's explore the world of strings in C!
+

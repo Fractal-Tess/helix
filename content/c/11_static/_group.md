@@ -33,3 +33,4 @@ The `static` keyword in C has different meanings depending on where it's used. I
 - Basic knowledge of memory management
 
 Let's explore the static keyword!
+

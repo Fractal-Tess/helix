@@ -94,3 +94,4 @@ char str[] = "Hello";  // Length is 5, not 6
 ## Next Steps
 
 In the next lesson, you'll learn about string functions!
+

@@ -33,3 +33,4 @@ While loops repeat code as long as a condition is true. They're perfect for situ
 - Basic knowledge of conditions and variables
 
 Let's explore while loops!
+

@@ -132,3 +132,4 @@ int isValidEmail(char email[]) {
 ## Next Steps
 
 You've completed the Strings section! Next, you'll learn about for loops!
+

@@ -117,3 +117,4 @@ int getOperationCount() {
 ## Next Steps
 
 In the next lesson, you'll learn about static functions!
+

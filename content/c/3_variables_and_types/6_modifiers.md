@@ -99,3 +99,4 @@ const char* MESSAGE = "Hello";
 ## Next Steps
 
 You've completed the Variables and Types section! Next, you'll learn about arrays!
+

@@ -2,13 +2,15 @@ import "~/styles/globals.css";
 
 import { type Metadata } from "next";
 import { Geist } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
 
 import { TRPCReactProvider } from "~/trpc/ReactClient";
 import { Providers } from "./_components/ProvidersClient";
 
 export const metadata: Metadata = {
   title: "Helix - Learning Platform",
-  description: "Master programming languages through hands-on practice and interactive lessons",
+  description:
+    "Master programming languages through hands-on practice and interactive lessons",
   icons: [
     { rel: "icon", url: "/assets/logo/favicon.ico", sizes: "32x32" },
     {

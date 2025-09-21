@@ -99,3 +99,4 @@ ch = ch - 32;       // Convert to uppercase
 ## Next Steps
 
 In the next lesson, you'll learn about floating-point numbers!
+

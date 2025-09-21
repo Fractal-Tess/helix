@@ -33,3 +33,4 @@ Multidimensional arrays are arrays of arrays. They allow you to store data in mu
 - Basic knowledge of loops and functions
 
 Let's explore multidimensional arrays!
+
